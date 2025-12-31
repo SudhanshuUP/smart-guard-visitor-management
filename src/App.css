@@ -1,0 +1,53 @@
+/* Shared list styles */
+.news-list, .rules-list {
+  list-style: none;
+  padding: 0;
+}
+
+.news-item, .rules-list li {
+  background: #f8f9fb;
+  margin-bottom: 14px;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.news-item h3 {
+  color: #002b5b;
+  margin-bottom: 5px;
+}
+
+.news-item p {
+  color: #444;
+  line-height: 1.5;
+}
+
+.rules-list li strong {
+  color: #002b5b;
+}
+
+/* Contact Page */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contact-form button {
+  align-self: center;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 3px;
+}
